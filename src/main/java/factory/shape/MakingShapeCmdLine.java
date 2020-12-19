@@ -16,12 +16,17 @@ public class MakingShapeCmdLine implements WayInputShapeType {
 
             ShapeFactory shapeFactory = new ShapeFactory();
 
-             if (line.equalsIgnoreCase("Circle")) {
+            boolean circle = line.equalsIgnoreCase("Circle");
+            boolean rectangle = line.equalsIgnoreCase("Rectangle");
+            boolean square = line.equalsIgnoreCase("Square");
+
+             if (circle) {
             shapeFactory.getShape("Circle").draw();
 
-            } else if (line.equalsIgnoreCase("Rectangle")) {
+            } else if (rectangle) {
                 shapeFactory.getShape("Rectangle").draw();
-            } else if (line.equalsIgnoreCase("Square")) {
+
+            } else if (square) {
 
                 shapeFactory.getShape("Square").draw();
 
@@ -29,7 +34,6 @@ public class MakingShapeCmdLine implements WayInputShapeType {
                 System.out.println("Closing...");
                 in.close();
                 break;
-
 
              } else {
                  System.out.println("Input correct shape type:");
