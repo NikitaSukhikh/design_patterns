@@ -25,14 +25,18 @@ public class MakingShapeDemo {
                 System.out.println("Insert type of shape: square/rectangle/circle : ");
                 WayInputShapeType way = new MakingShapeCmdLine();
                 way.chooseInput();
+
                 System.out.println("Main() closed");
                 break;
 
             } else if (jv) {
 
-                System.out.println("Go to the proper java class and insert shape type");
+                System.out.println("Going to the proper java class...\n");
                 WayInputShapeType way = new MakingShapeJavaCode();
                 way.chooseInput();
+
+                System.out.println("\nMain() closed");
+                break;
 
             } else if (ext) {
 
