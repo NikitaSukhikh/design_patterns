@@ -1,4 +1,4 @@
-package factory.buttons_factory;
+package factory.buttons.factory;
 
 public class Demo {
 

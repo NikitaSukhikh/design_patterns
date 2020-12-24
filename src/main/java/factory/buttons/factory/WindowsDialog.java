@@ -1,7 +1,7 @@
-package factory.buttons_factory;
+package factory.buttons.factory;
 
-import factory.buttons.WindowsButton;
-import factory.buttons.Button;
+import factory.buttons.buttons.WindowsButton;
+import factory.buttons.buttons.Button;
 
 //another concrete creator
 

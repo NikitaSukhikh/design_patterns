@@ -1,4 +1,4 @@
-package factory.buttons;
+package factory.buttons.buttons;
 
 //another concrete product
 

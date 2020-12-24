@@ -1,6 +1,6 @@
-package factory.buttons_factory;
-import factory.buttons.HtmlButton;
-import factory.buttons.Button;
+package factory.buttons.factory;
+import factory.buttons.buttons.HtmlButton;
+import factory.buttons.buttons.Button;
 
 //concrete creator
 

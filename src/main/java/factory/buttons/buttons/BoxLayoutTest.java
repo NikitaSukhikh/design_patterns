@@ -1,4 +1,4 @@
-package factory.buttons;
+package factory.buttons.buttons;
 
 import java.awt.Component;
 import java.awt.Container;

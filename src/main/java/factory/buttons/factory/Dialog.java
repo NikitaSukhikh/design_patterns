@@ -1,6 +1,6 @@
-package factory.buttons_factory;
+package factory.buttons.factory;
 
-import factory.buttons.Button;
+import factory.buttons.buttons.Button;
 
 //base creator
 
